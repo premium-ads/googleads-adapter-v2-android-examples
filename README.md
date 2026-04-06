@@ -29,6 +29,7 @@ Google Ad Manager mediation example.
 ## Documentation
 
 - [Integration Guide](https://docs.premiumads.net/v2.0/docs/google-admob)
+- [Test Ad Units](https://docs.premiumads.net/v2.0/docs/enabling-test-ads)
 - [Migration Guide](https://docs.premiumads.net/v2.0/docs/google-admob#migration-from-sdk-v1)
 
 ## Dependencies
