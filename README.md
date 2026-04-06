@@ -4,14 +4,15 @@ Example apps demonstrating PremiumAds mediation adapter integration with Google 
 
 ## Examples
 
-### [android/admob](android/admob)
-Google AdMob mediation example with all supported ad formats:
-- Banner
-- Interstitial
-- Rewarded
-- Rewarded Interstitial
-- Native
-- App Open
+### android/admob — Google AdMob mediation
+All supported ad formats: Banner, Interstitial, Rewarded, Rewarded Interstitial, Native, App Open.
+
+Two language variants are provided:
+
+| Variant | Path |
+|---------|------|
+| Kotlin | [android/admob/kotlin](android/admob/kotlin) |
+| Java | [android/admob/java](android/admob/java) |
 
 ### android/admanager (coming soon)
 Google Ad Manager mediation example.

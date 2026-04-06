@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PremiumAds Adapter Sample"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLoadBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Banner" />
+
+    <FrameLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLoadInterstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Interstitial" />
+
+    <Button
+        android:id="@+id/btnLoadRewarded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Rewarded" />
+
+    <Button
+        android:id="@+id/btnLoadNative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Native" />
+
+    <FrameLayout
+        android:id="@+id/nativeAdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLoadRewardedInterstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Rewarded Interstitial" />
+
+    <Button
+        android:id="@+id/btnLoadAppOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load App Open" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:text="Logs will appear here..." />
+    </ScrollView>
+</LinearLayout>
