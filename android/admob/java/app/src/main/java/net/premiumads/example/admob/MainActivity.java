@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         // MobileAds.setRequestConfiguration(requestConfig);
         MobileAds.initialize(this, initializationStatus -> {
             log("MobileAds initialized.");
-            for (java.util.Map.Entry<String, com.google.android.gms.ads.AdapterStatus> entry
+            for (java.util.Map.Entry<String, com.google.android.gms.ads.initialization.AdapterStatus> entry
                     : initializationStatus.getAdapterStatusMap().entrySet()) {
                 log("Adapter: " + entry.getKey()
                         + " | State: " + entry.getValue().getInitializationState()
