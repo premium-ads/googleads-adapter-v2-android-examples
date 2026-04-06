@@ -37,6 +37,6 @@ repositories {
     maven { url = uri("https://repo.premiumads.net/artifactory/mobile-ads-sdk/") }
 }
 dependencies {
-    implementation("net.premiumads.sdk:admob-adapter-v2:+")
+    implementation("net.premiumads.sdk:admob-adapter-v2:1.0.8")
 }
 ```
